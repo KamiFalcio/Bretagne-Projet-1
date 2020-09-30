@@ -1,0 +1,11 @@
+@font-face {
+    font-family: CELTICHD;
+    src: local(CELTICHD.TTF);
+}
+
+header {
+    padding:20px;
+    background-color:white;
+    color:black;
+    font-family:CELTICHD;
+}
