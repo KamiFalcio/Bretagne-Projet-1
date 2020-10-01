@@ -3,14 +3,17 @@
     object-fit: scale-down ;
 }
 
-a {
+.LienGeo {
     margin: 2px;
     max-width: 47%;
     height: auto;
 }
 
+
+
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    object-fit: scale-down ;
 }
