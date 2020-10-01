@@ -1,3 +1,7 @@
+html, head, header, footer {
+    background-color: rgb(80,96,144);
+}
+
 
 @font-face{
     font-family : "CELTICHD";
