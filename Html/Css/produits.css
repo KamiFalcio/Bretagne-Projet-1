@@ -1,0 +1,15 @@
+.imageArticle {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
