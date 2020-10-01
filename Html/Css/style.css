@@ -1,3 +1,13 @@
+
+@font-face{
+    font-family : "CELTICHD";
+    src : url('CELTICHD.ttf') format('truetype');
+}
+
+title, .title{
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+}
+
 h1{
     display: flex;
     justify-content: center; 
@@ -28,3 +38,4 @@ li {
     display: inline-flex;
     justify-content: space-between;
 }
+
