@@ -1,0 +1,45 @@
+html, head, header, footer {
+    background-color: rgb(80,96,144);
+}
+
+
+@font-face{
+    font-family : "CELTICHD";
+    src : url('CELTICHD.ttf') format('truetype');
+}
+
+title, .title{
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+.imgnav  {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.created {
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+}
+

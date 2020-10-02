@@ -1,0 +1,47 @@
+h1{
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+.imgnav  {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.texte {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 70%;
+    z-index: 1;
+    font-size: x-large;
+} 
+
+.created {
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+
+
+
