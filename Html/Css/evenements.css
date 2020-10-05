@@ -1,21 +1,42 @@
-.imageArticle {
-    max-width: 300px;
-    max-height: 300px;
+/* img{
+    
+}
+
+article{
+    width: 50%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
 }
 
 section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+} */
+
+
+img {
+    width: 60%;
+    border-radius: 50px;
+    margin: 20px;
 }
 
 article {
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center;
+    color:black;
+    font-size: 10px;
+    font-size: 16px;
+    
 }
 
-#form {
+section {
+    background-color:white;
+    width: 100%;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
