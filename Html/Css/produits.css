@@ -1,15 +1,68 @@
+@font-face{
+    font-family : "CELTICHD";
+    src : url('CELTICHD.ttf') format('truetype');
+}
+
+h1, h2 {
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
 .imageArticle {
-    max-width: 300px;
-    max-height: 300px;
+    max-width:200px;
+    max-height: 130px;
+    float: right;
+    margin-left:15px ;
+    margin-top: 30px;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.image {
+    max-width:200px;
+    max-height: 130px;
+    float: left;
+    margin-right:20px; 
+    margin-top: 30px;
+    
 }
 
-article {
-    margin-left: 5%;
-    margin-right: 5%;
+.articleimage {
+    max-width:200px;
+    max-height: 130px;
+    float: left;
+    margin-right:20px; 
+    margin-top: 30px;
 }
+
+.articleimg {
+    max-width:200px;
+    max-height: 130px;
+    float: right;
+    margin-left:15px ;
+    margin-top: 10px;
+}
+
+.cidre {
+    text-align: right;
+    
+}
+
+.biscuits {
+    text-align: right; 
+   
+}
+
+
+
+
+
+h2 { 
+  color:white;  
+}
+
+p {
+    font-size: 21px;
+}
+
+
+    
+

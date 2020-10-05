@@ -28,8 +28,10 @@ h1{
 .imgnav  {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
+    
+    
 }
 
 .created {
