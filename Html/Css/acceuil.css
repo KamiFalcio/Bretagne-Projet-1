@@ -16,6 +16,7 @@ h1{
     color: white;
     padding: 10px;
     text-decoration: none;
+    
 }
 
 .texte {
@@ -24,7 +25,7 @@ h1{
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 30%;
+    top: 50%;
     width: 70%;
     z-index: 1;
     font-size: x-large;
@@ -41,7 +42,9 @@ li {
     justify-content: space-between;
 }
 
-
+.img {
+    height: 700px;
+}
 
 
 

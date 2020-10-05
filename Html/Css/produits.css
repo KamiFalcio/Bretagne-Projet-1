@@ -14,7 +14,13 @@ h1, h2 {
     float: right;
     margin-left:15px ;
     margin-top: 30px;
+    transition: width 1s ease-in;
 }
+.imageArticle:hover {
+    max-width: 250px;
+    max-height: 160px;  
+} 
+
 
 .image {
     max-width:200px;
@@ -22,8 +28,13 @@ h1, h2 {
     float: left;
     margin-right:20px; 
     margin-top: 30px;
+    transition: width 1s ease-in;
     
 }
+.image:hover {
+    max-width: 250px;
+    max-height: 160px;  
+} 
 
 .articleimage {
     max-width:200px;
@@ -31,7 +42,12 @@ h1, h2 {
     float: left;
     margin-right:20px; 
     margin-top: 30px;
+    transition: width 1s ease-in;
 }
+.articleimage:hover {
+    max-width: 250px;
+    max-height: 160px;  
+} 
 
 .articleimg {
     max-width:200px;
@@ -39,7 +55,13 @@ h1, h2 {
     float: right;
     margin-left:15px ;
     margin-top: 10px;
+    transition: width 1s ease-in; 
+    
 }
+.articleimg:hover {
+    max-width: 250px;
+    max-height: 160px;  
+} 
 
 .cidre {
     text-align: right;
@@ -50,9 +72,6 @@ h1, h2 {
     text-align: right; 
    
 }
-
-
-
 
 
 h2 { 
