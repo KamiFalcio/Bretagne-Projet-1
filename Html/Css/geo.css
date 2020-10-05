@@ -3,7 +3,7 @@
     object-fit: scale-down ;
 }
 
-.LienGeo {
+.lienGeo {
     margin: 2px;
     max-width: 47%;
     height: auto;
@@ -18,5 +18,9 @@
 }
 .title{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
+}
+p {
+    font-size: 21px;
 }
