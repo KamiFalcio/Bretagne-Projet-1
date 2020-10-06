@@ -104,19 +104,8 @@ article:hover{
     img {
         width: 50%;
         border-radius: 50px;
-        animation-name:scaleImg;
-        animation-duration: 3s;
     }
-    @keyframes scaleImg{
-        from {
-          transform: scale(1);
-        }
-        to {
-          transform: scale(1.25);
-        }
-      }
 
-    
     
     .article-burger-1 {
         display: none;
