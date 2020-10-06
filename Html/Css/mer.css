@@ -36,26 +36,33 @@ label {
 }
 
 #label1{
-	background-image: url("1318.jpg");
+	background-image: url("image carousel mer/1318.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label2{
-	background-image: url("1319.jpg");
+	background-image: url("image carousel mer/1319.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label3{
-	background-image: url("1320.jpg");
+	background-image: url("image carousel mer/1320.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label4{
-	background-image: url("1321.jpg");
+	background-image: url("image carousel mer/1321.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 400px){
+	#label1{
+		background-image: url("image\ carousel\ mer/carouselportable1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
 
 
 form {
