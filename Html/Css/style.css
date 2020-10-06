@@ -19,14 +19,13 @@ html, head, header, footer {
 }
 
 
-@font-face{²
+@font-face{
     font-family : "CELTICHD";
     src : url('CELTICHD.ttf') format('truetype');
 }
 
 title, .title{
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-    color: white;
     margin: 20px;
 }
 
