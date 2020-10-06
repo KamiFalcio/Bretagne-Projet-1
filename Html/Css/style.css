@@ -1,6 +1,17 @@
+
 p {
     font-size: 21px;
 }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 
 html, head, header, footer {
@@ -15,13 +26,11 @@ html, head, header, footer {
 
 title, .title{
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
 }
 
-h1{
-    display: flex;
-    justify-content: center; 
-   
-}
+
 
 .menu {
     display: flex;
@@ -49,10 +58,7 @@ h1{
     
 }
 
-li {
-    display: inline-flex;
-    justify-content: space-between;
-}
+
 
 
 

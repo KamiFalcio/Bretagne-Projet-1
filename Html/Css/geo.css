@@ -4,7 +4,7 @@
 }
 
 .lienGeo {
-    margin: 2px;
+    margin: 0 1px;
     max-width: 47%;
     height: auto;
 }
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    object-fit: scale-down ;
+    
 }
 .title{
     text-align: center;
