@@ -25,14 +25,38 @@ body {
 
 label {
 
-	color: #fff;
+	
 	transition: transform 400ms ease-out;
 	display: inline-block;  
     width: 100%;
 	height: 600px;
 	position: relative;
 	z-index: 1;
+	
 }
+
+#label1{
+	background-image: url("1318.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#label2{
+	background-image: url("1319.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#label3{
+	background-image: url("1320.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#label4{
+	background-image: url("1321.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
 
 form {
 	
