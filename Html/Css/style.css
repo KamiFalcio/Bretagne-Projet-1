@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 html, head, header, footer {
     background-color: rgb(80,96,144);
 }
@@ -10,13 +18,11 @@ html, head, header, footer {
 
 title, .title{
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
 }
 
-h1{
-    display: flex;
-    justify-content: center; 
-   
-}
+
 
 .menu {
     display: flex;
@@ -40,8 +46,5 @@ h1{
     list-style-type: none;
 }
 
-li {
-    display: inline-flex;
-    justify-content: space-between;
-}
+
 
