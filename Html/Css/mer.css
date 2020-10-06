@@ -81,9 +81,17 @@ input:nth-of-type(4):checked ~ label {
 	transform: translate3d(-300%, 0, 0);
 }
 
-label {
-	background-image: url("merwall.jpg");
-	background-size: cover;
+#label1{
+	
+}
+#label2{
+
+}
+#label3{
+
+}
+#label4{
+
 }
 
 
