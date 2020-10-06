@@ -1,3 +1,10 @@
+
+p {
+    font-size: 21px;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +13,13 @@
 
 
 
+
 html, head, header, footer {
     background-color: rgb(80,96,144);
 }
 
 
-@font-face{
+@font-face{²
     font-family : "CELTICHD";
     src : url('CELTICHD.ttf') format('truetype');
 }
@@ -41,10 +49,19 @@ title, .title{
 }
 
 .created {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
     color: white;
     list-style-type: none;
+    line-height:5px;
+    
 }
+
+
+
+
+
 
 
 
