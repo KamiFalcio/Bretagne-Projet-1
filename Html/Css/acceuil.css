@@ -1,3 +1,51 @@
+@font-face{
+    font-family : "CELTICHD";
+    src : url('CELTICHD.ttf') format('truetype');
+}
+
+html, head, header, footer {
+    background-color: rgb(80,96,144);
+}
+
+.contact {
+    margin: 100px;
+    margin-bottom: 0px;  
+}
+title, .title {
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+}
+
+input {
+    height: 50px;
+}
+textarea {
+    height: 80px;
+}
+
+ footer {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-around;
+}   
+ ul{
+     display:flex; 
+     align-items: flex-end; 
+     justify-content: space-around;  
+} 
+
+
 h1{
     display: flex;
     justify-content: center; 
@@ -31,11 +79,6 @@ h1{
     font-size: x-large;
 } 
 
-.created {
-    text-align: center;
-    color: white;
-    list-style-type: none;
-}
 
 li {
     display: inline-flex;

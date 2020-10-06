@@ -3,9 +3,31 @@
     src : url('CELTICHD.ttf') format('truetype');
 }
 
-h1, h2 {
+html, head, header, footer {
+    background-color: rgb(80,96,144);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+h1, h2, h3 {
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
     font-size: 40px;
+}
+
+.imgnav  {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-decoration: none;   
+}
+
+h1 {
+    display: flex;
+    justify-content: center; 
 }
 
 .imageArticle {
@@ -15,6 +37,7 @@ h1, h2 {
     margin-left:15px ;
     margin-top: 30px;
     transition: width 1s ease-in;
+    border: 5px solid white; 
 }
 .imageArticle:hover {
     max-width: 250px;
@@ -29,6 +52,7 @@ h1, h2 {
     margin-right:20px; 
     margin-top: 30px;
     transition: width 1s ease-in;
+    border: 5px solid white; 
     
 }
 .image:hover {
@@ -43,6 +67,7 @@ h1, h2 {
     margin-right:20px; 
     margin-top: 30px;
     transition: width 1s ease-in;
+    border: 5px solid white; 
 }
 .articleimage:hover {
     max-width: 250px;
@@ -56,7 +81,7 @@ h1, h2 {
     margin-left:15px ;
     margin-top: 10px;
     transition: width 1s ease-in; 
-    
+    border: 5px solid white; 
 }
 .articleimg:hover {
     max-width: 250px;
@@ -72,16 +97,88 @@ h1, h2 {
     text-align: right; 
    
 }
-
+li {
+    display: inline-flex;
+    justify-content: space-between;
+}
 
 h2 { 
   color:white;  
 }
 
+.contact {
+    margin: 100px;
+    margin-bottom: 0px;
+   
+}
+ .formulaire {
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     padding: 20px;
+
+ }
+ input {
+     height: 50px;
+ }
+ textarea {
+     height: 80px;
+ }
+
+footer {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-around;
+}  
+
+ul{
+     display:flex; 
+     align-items: flex-end; 
+     justify-content: space-around; 
+    
+}
+.created {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: white;
+    list-style-type: none;
+    line-height:5px;
+}
+.lesdroits {
+    font-size: 10px;
+}
+
 p {
     font-size: 21px;
 }
+.contact {
+    color: black;
+}
+
+@media  screen  and (max-width:800px) {
+    body {
+        max-width:100% ;
+        height: auto;  
+    }
+    footer {
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    } 
+    .formulaire { 
+        width: 90%;
+        height: auto;
+    }
+    .created {
+        width: 100%;
+        height: auto;
+    }
+}
 
 
-    
+
+
+ 
 
