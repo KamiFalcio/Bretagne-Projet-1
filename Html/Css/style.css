@@ -26,7 +26,8 @@ html, head, header, footer {
 
 title, .title{
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-    margin: 20px;
+    padding:30px;
+    font-size: 40px;
 }
 
 

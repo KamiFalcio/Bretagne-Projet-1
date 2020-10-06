@@ -76,7 +76,8 @@ h1{
     top: 50%;
     width: 70%;
     z-index: 1;
-    font-size: x-large;
+    font-size: 30px; 
+    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
 } 
 
 
