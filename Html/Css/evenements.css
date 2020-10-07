@@ -2,6 +2,11 @@ body {
     overflow-x: hidden;
 }
 
+.fest{
+    font-family : "CELTICHD";
+    font-size: 25px;
+}
+
 img:hover{
     transform: scale(1.25);
 }
@@ -152,6 +157,7 @@ article:hover{
     .article-toggle-3{
         margin-top: 10px;
     }
+    
 
 
 
