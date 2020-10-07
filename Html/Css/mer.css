@@ -36,6 +36,7 @@ article {
     margin-right: 5%;
 }
 
+
 .petitpoisson{
 	width: 100px;
 	border-radius: 50px;
@@ -46,12 +47,17 @@ article {
 }
 
 
+.title{
+	text-align: center;
+	font-size: 40px;
+}
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: sans-serif;
+
 	overflow-x: hidden;
 }
 
