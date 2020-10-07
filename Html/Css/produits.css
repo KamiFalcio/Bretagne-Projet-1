@@ -100,7 +100,7 @@ h1 {
 li {
     display: inline-flex;
     justify-content: space-between;
-}
+} 
 
 h2 { 
   color:white;  
@@ -111,43 +111,42 @@ h2 {
     margin-bottom: 0px;
    
 }
- .formulaire {
-     display: flex;
-     flex-direction: column;
-     width: 500px;
-     padding: 20px;
-
- }
- input {
-     height: 50px;
- }
- textarea {
+.formulaire {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	padding: 20px; 
+	border-radius:5px ;
+}
+ 
+textarea {
      height: 80px;
+     border-radius:5px ;
  }
 
-footer {
+/* footer {
     display: flex; 
     align-items: flex-end;
     justify-content: space-around;
-}  
+}   */
 
 ul{
      display:flex; 
      align-items: flex-end; 
      justify-content: space-around; 
     
-}
-.created {
+}  
+ .created, .lesdroits {
     display: flex;
     flex-direction: column;
     text-align: right;
     color: white;
     list-style-type: none;
-    line-height:5px;
-}
-.lesdroits {
-    font-size: 10px;
-}
+    line-height:30px;
+    margin-right: 10px; 
+    font-size: 14px;
+    margin-bottom: 8px;
+} 
 
 p {
     font-size: 21px;
@@ -155,26 +154,22 @@ p {
 .contact {
     color: black;
 }
+#send {
+	border-radius:5px ;
+	width: 80px;
+    padding: 8px;
+    margin: auto;
 
-/* @media  screen  and (max-width:800px) {
-    body {
-        max-width:100% ;
-        height: auto;  
-    }
-    footer {
-        display: flex; 
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-around;
-    } 
-    .formulaire { 
-        width: 90%;
-        height: auto;
-    }
-    .created {
-        width: 100%;
-        height: auto;
-    } */
+}
+#foot {
+	height: 50px;
+	border-radius:5px ;
+    
+}
+input {
+    height: 50px;
+    border-radius:5px ;
+} 
 
 
 
