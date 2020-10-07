@@ -1,14 +1,51 @@
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: flex;
+	flex: wrap;
+	height: 400px;
+
+}
+
+#partie-faune{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+}
+
+#disposition-poisson{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#a-savoir{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	
 }
 
 article {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
+.petitpoisson{
+	width: 100px;
+	border-radius: 50px;
+}
+
+.petitpoisson:hover{
+	transform: scale(1.75);
+}
+
 
 .title{
 	text-align: center;
@@ -39,26 +76,49 @@ label {
 }
 
 #label1{
-	background-image: url("1318.jpg");
+	background-image: url("image carousel mer/1318.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label2{
-	background-image: url("1319.jpg");
+	background-image: url("image carousel mer/1319.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label3{
-	background-image: url("1320.jpg");
+	background-image: url("image carousel mer/1320.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #label4{
-	background-image: url("1321.jpg");
+	background-image: url("image carousel mer/1321.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 400px){
+	#label1{
+		background-image: url("image\ carousel\ mer/carouselportable1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#label2{
+		background-image: url("image\ carousel\ mer/carouselportable2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#label3{
+		background-image: url("image\ carousel\ mer/carouselportable3.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#label4{
+		background-image: url("image\ carousel\ mer/carouselportable4.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+}
 
 
 form {
@@ -108,19 +168,6 @@ input:nth-of-type(4):checked ~ label {
 	transform: translate3d(-300%, 0, 0);
 }
 
-#label1{
-	
-}
-#label2{
-
-}
-#label3{
-
-}
-#label4{
-
-}
-
 
 
 label:before,
@@ -152,5 +199,6 @@ label:after {
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
 }
+
 
 
