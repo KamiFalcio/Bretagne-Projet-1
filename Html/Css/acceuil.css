@@ -9,7 +9,7 @@ html, head, header, footer {
 
 .contact {
     margin: 100px;
-    margin-bottom: 0px;  
+    margin-bottom: 0px;   
 }
 title, .title {
     font-family : "CELTICHD", Arial, Helvetica, sans-serif;
@@ -25,26 +25,17 @@ h3 {
     flex-direction: column;
     width: 500px;
     padding: 20px;
+    border-radius:5px ;
 }
 
-input {
+ input {
     height: 50px;
-}
+    border-radius:5px ;
+} 
 textarea {
     height: 80px;
+    border-radius:5px ;
 }
-
- footer {
-    display: flex; 
-    align-items: flex-end;
-    justify-content: space-around;
-}   
- ul{
-     display:flex; 
-     align-items: flex-end; 
-     justify-content: space-around;  
-} 
-
 
 h1{
     display: flex;
@@ -84,10 +75,35 @@ h1{
 li {
     display: inline-flex;
     justify-content: space-between;
-}
+}  
 
 .img {
-    height: 700px;
+    height: 800px;
+}
+
+#send {
+	border-radius:5px ;
+	width: 80px;
+	padding: 8px;
+	margin: auto;
+}
+.created, .lesdroits {
+    display: flex;
+    flex-direction: column;  
+    text-align: right; 
+    color: white;
+    list-style-type: none;
+	line-height:30px; 
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+
+}
+
+ul {
+    justify-content:space-around;
+    align-items: flex-end;
+    display: flex;
 }
 
 
