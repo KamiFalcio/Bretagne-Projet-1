@@ -36,8 +36,11 @@ title,
 .imgnav {
   background-color: black;
   color: white;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-decoration: none;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .created {
