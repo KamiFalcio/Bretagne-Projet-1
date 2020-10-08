@@ -49,6 +49,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   background-color: black;
+  
 }
 
 .imgnav {
@@ -104,4 +105,11 @@ ul {
   justify-content: space-around;
   align-items: flex-end;
   display: flex;
+}
+
+
+@media screen and (max-width: 375px){
+  #titreaccueil{
+    font-size: 25px;
+  }
 }

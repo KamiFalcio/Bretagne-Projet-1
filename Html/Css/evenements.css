@@ -162,3 +162,9 @@ article:hover {
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 375px){
+  #titreevenements{
+    font-size: 25px;
+  }
+}

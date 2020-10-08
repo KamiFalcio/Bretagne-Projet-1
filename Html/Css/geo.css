@@ -68,4 +68,9 @@ li {
   flex-direction: column;
   margin: 50px;
 }
+@media screen and (max-width: 375px){
+  #titregeo{
+    font-size: 25px;
+  }
+}
 

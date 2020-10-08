@@ -131,3 +131,9 @@ ul{
 p {
   font-size: 21px;
 }
+
+@media screen and (max-width: 375px){
+  #titreproduits{
+    font-size: 25px;
+  }
+}
