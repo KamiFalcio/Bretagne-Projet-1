@@ -1,200 +1,164 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-.fest{
-    font-family : "CELTICHD";
-    font-size: 25px;
+.fest {
+  font-family: "CELTICHD";
+  font-size: 25px;
 }
 
-img:hover{
-    transform: scale(1.25);
+.imageArticle:hover {
+  transform: scale(1.25);
 }
 
-article:hover{
-    transform: scale(1.25);
+article:hover {
+  transform: scale(1.25);
 }
 
 .article-checkbox-1 {
-    opacity: 0;
-    position: absolute;
-    top: -5000px;
+  opacity: 0;
+  position: absolute;
+  top: -5000px;
 }
 
-
 .article-checkbox-2 {
-    opacity: 0;
-    position: absolute;
-    top: -5000px;
+  opacity: 0;
+  position: absolute;
+  top: -5000px;
 }
 
 .article-checkbox-3 {
-    opacity: 0;
-    position: absolute;
-    top: -5000px;
+  opacity: 0;
+  position: absolute;
+  top: -5000px;
 }
 
 .article-checkbox-4 {
-    opacity: 0;
-    position: absolute;
-    top: -5000px;
+  opacity: 0;
+  position: absolute;
+  top: -5000px;
 }
 
 @media screen and (min-width: 801px) {
-    .article-toggle-1 {
-        opacity: 0;
-        position: absolute;
-        top: -6000px;
-    }
+  .article-toggle-1 {
+    opacity: 0;
+    position: absolute;
+    top: -6000px;
+  }
 
-    .article-toggle-2 {
-        opacity: 0;
-        position: absolute;
-        top: -6000px;
-    }
+  .article-toggle-2 {
+    opacity: 0;
+    position: absolute;
+    top: -6000px;
+  }
 
-    .article-toggle-3 {
-        opacity: 0;
-        position: absolute;
-        top: -6000px;
-    }
 
-    .article-toggle-4 {
-        opacity: 0;
-        position: absolute;
-        top: -6000px;
-    }
+  .article-toggle-3 {
+    opacity: 0;
+    position: absolute;
+    top: -6000px;
+  }
 
-    section{
-        margin-top: 40px;
-        margin-bottom: 40px;
+  .article-toggle-4 {
+    opacity: 0;
+    position: absolute;
+    top: -6000px;
+  }
 
-    }
-    .pair{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row-reverse;
-    }
-    .impair{
-        display: flex;
-        justify-content: space-around;
-    }
+  section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .pair {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .impair {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    article{
-        width: 40%;
-        height: 200px;
-        font-size: small;
-    }
+  article {
+    width: 40%;
+    height: 200px;
+    font-size: small;
+  }
 
-    img{
-        width: 40%;
-        height: 325px;
-    }
+  .imageArticle {
+    width: 40%;
+    height: 325px;
+  }
 }
-.title{
-    text-align: center;
-    font-size: 40px;
+.title {
+  text-align: center;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 800px) {
-
-
-
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    img {
-        width: 50%;
-        border-radius: 50px;
-    }
-
-    
-    .article-burger-1 {
-        display: none;
-    }
-    .article-checkbox-1:checked ~ .article-burger-1 {
-        display: block;
-    }
-    .article-checkbox-1:focus + .article-toggle-1 {
-        outline: black auto 20px; 
-    }
-    .article-toggle-1{
-        margin-top: 10px;
-    }
-
-
-
-    .article-burger-2 {
-        display: none;
-    }
-    .article-checkbox-2:checked ~ .article-burger-2 {
-        display: block;
-    }
-    .article-checkbox-2:focus + .article-toggle-2 {
-        outline: black auto 20px; 
-    }
-    .article-toggle-2{
-        margin-top: 10px;
-    }
-
-
-
-    .article-burger-3 {
-        display: none;
-    }
-    .article-checkbox-3:checked ~ .article-burger-3 {
-        display: block;
-    }
-    .article-checkbox-3:focus + .article-toggle-3 {
-        outline: black auto 20px; 
-    }
-    .article-toggle-3{
-        margin-top: 10px;
-    }
-    
-
-
-
-    .article-burger-4 {
-        display: none;
-    }
-    .article-checkbox-4:checked ~ .article-burger-4 {
-        display: block;
-    }
-    .article-checkbox-4:focus + .article-toggle-4 {
-        outline: black auto 20px; 
-    }
-    .article-toggle-4 {
-        margin-top: 10px;
-    }
-}
-
-.created, .lesdroits {
+  section {
     display: flex;
-    flex-direction: column;  
-    text-align: center; 
-    color: white;
-    list-style-type: none;
-    line-height:30px; 
-    font-size: 15px;
-    margin-bottom: 8px;
-    margin-right: 10px;
-    margin-top: 80px;
-    
-}
-    
-li {
-    display: inline-flex;
-    justify-content: space-between;
-}  
-ul {
-    justify-content:space-around;
-     align-items: flex-end;
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .imageArticle {
+    width: 50%;
+    border-radius: 50px;
+  }
+
+  .article-burger-1 {
+    display: none;
+  }
+  .article-checkbox-1:checked ~ .article-burger-1 {
+    display: block;
+  }
+  .article-checkbox-1:focus + .article-toggle-1 {
+    outline: black auto 20px;
+  }
+  .article-toggle-1 {
+    margin-top: 10px;
+  }
+
+  .article-burger-2 {
+    display: none;
+  }
+  .article-checkbox-2:checked ~ .article-burger-2 {
+    display: block;
+  }
+  .article-checkbox-2:focus + .article-toggle-2 {
+    outline: black auto 20px;
+  }
+  .article-toggle-2 {
+    margin-top: 10px;
+  }
+
+  .article-burger-3 {
+    display: none;
+  }
+  .article-checkbox-3:checked ~ .article-burger-3 {
+    display: block;
+  }
+  .article-checkbox-3:focus + .article-toggle-3 {
+    outline: black auto 20px;
+  }
+  .article-toggle-3 {
+    margin-top: 10px;
+  }
+
+  .article-burger-4 {
+    display: none;
+  }
+  .article-checkbox-4:checked ~ .article-burger-4 {
+    display: block;
+  }
+  .article-checkbox-4:focus + .article-toggle-4 {
+    outline: black auto 20px;
+  }
+  .article-toggle-4 {
+    margin-top: 10px;
+  }
 }
