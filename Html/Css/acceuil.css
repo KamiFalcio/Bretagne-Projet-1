@@ -91,7 +91,7 @@ li {
 .lesdroits {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: center;
   color: white;
   list-style-type: none;
   line-height: 30px;
