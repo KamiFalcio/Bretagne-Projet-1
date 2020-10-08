@@ -106,3 +106,10 @@ ul {
   align-items: flex-end;
   display: flex;
 }
+
+
+@media screen and (max-width: 375px){
+  #titreaccueil{
+    font-size: 25px;
+  }
+}

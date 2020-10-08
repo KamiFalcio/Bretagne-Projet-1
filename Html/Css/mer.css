@@ -267,3 +267,9 @@ li {
 	justify-content: space-around; 
    
 } 
+
+@media screen and (max-width: 375px){
+  #titremer{
+    font-size: 25px;
+  }
+}
