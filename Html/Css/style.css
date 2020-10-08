@@ -48,3 +48,14 @@ title,
   list-style-type: none;
   line-height: 5px;
 }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imgtitre {
+  width: 100px;
+  border-radius: 50px;
+}

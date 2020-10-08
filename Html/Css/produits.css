@@ -1,159 +1,156 @@
-@font-face{
-    font-family : "CELTICHD";
-    src : url('CELTICHD.ttf') format('truetype');
+@font-face {
+  font-family: "CELTICHD";
+  src: url("CELTICHD.ttf") format("truetype");
 }
 
-html, head, header, footer {
-    background-color:rgb(144, 162, 214);
+html,
+head,
+header,
+footer {
+  background-color: rgb(144, 162, 214);
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
 }
-h1, h2, h3 {
-    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-    font-size: 40px;
+h1,
+h2,
+h3 {
+  font-family: "CELTICHD", Arial, Helvetica, sans-serif;
+  font-size: 40px;
 }
 
-.imgnav  {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    text-decoration: none;   
+.imgnav {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
 }
 
 h1 {
-    display: flex;
-    justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
 .imageArticle {
-    max-width:200px;
-    max-height: 130px;
-    float: right;
-    margin-left:15px ;
-    margin-top: 30px;
-    transition: width 1s ease-in;
-    border: 5px solid white; 
+  max-width: 200px;
+  max-height: 130px;
+  float: right;
+  margin-left: 15px;
+  margin-top: 30px;
+  transition: width 1s ease-in;
+  border: 5px solid white;
 }
 .imageArticle:hover {
-    max-width: 250px;
-    max-height: 160px;  
-} 
-
+  max-width: 250px;
+  max-height: 160px;
+}
 
 .image {
-    max-width:200px;
-    max-height: 130px;
-    float: left;
-    margin-right:20px; 
-    margin-top: 30px;
-    transition: width 1s ease-in;
-    border: 5px solid white; 
-    
+  max-width: 200px;
+  max-height: 130px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+  transition: width 1s ease-in;
+  border: 5px solid white;
 }
 .image:hover {
-    max-width: 250px;
-    max-height: 160px;  
-} 
+  max-width: 250px;
+  max-height: 160px;
+}
 
 .articleimage {
-    max-width:200px;
-    max-height: 130px;
-    float: left;
-    margin-right:20px; 
-    margin-top: 30px;
-    transition: width 1s ease-in;
-    border: 5px solid white; 
+  max-width: 200px;
+  max-height: 130px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+  transition: width 1s ease-in;
+  border: 5px solid white;
 }
 .articleimage:hover {
-    max-width: 250px;
-    max-height: 160px;  
-} 
+  max-width: 250px;
+  max-height: 160px;
+}
 
 .articleimg {
-    max-width:200px;
-    max-height: 130px;
-    float: right;
-    margin-left:15px ;
-    margin-top: 10px;
-    transition: width 1s ease-in; 
-    border: 5px solid white; 
+  max-width: 200px;
+  max-height: 130px;
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+  transition: width 1s ease-in;
+  border: 5px solid white;
 }
 .articleimg:hover {
-    max-width: 250px;
-    max-height: 160px;  
-} 
+  max-width: 250px;
+  max-height: 160px;
+}
 
 .cidre {
-    text-align: right;
-    
+  text-align: right;
 }
 
 .biscuits {
-    text-align: right; 
-   
+  text-align: right;
 }
 li {
-    display: inline-flex;
-    justify-content: space-between;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
-h2 { 
-  color:white;  
+h2 {
+  color: white;
 }
 
 .contact {
-    margin: 100px;
-    margin-bottom: 0px;
-   
+  margin: 100px;
+  margin-bottom: 0px;
 }
- .formulaire {
-     display: flex;
-     flex-direction: column;
-     width: 500px;
-     padding: 20px;
-
- }
- input {
-     height: 50px;
- }
- textarea {
-     height: 80px;
- }
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+}
+input {
+  height: 50px;
+}
+textarea {
+  height: 80px;
+}
 
 footer {
-    display: flex; 
-    align-items: flex-end;
-    justify-content: space-around;
-}  
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
 
-ul{
-     display:flex; 
-     align-items: flex-end; 
-     justify-content: space-around; 
-    
+ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 .created {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    color: white;
-    list-style-type: none;
-    line-height:5px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: white;
+  list-style-type: none;
+  line-height: 5px;
 }
 .lesdroits {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 p {
-    font-size: 21px;
+  font-size: 21px;
 }
 .contact {
-    color: black;
+  color: black;
 }
 
 /* @media  screen  and (max-width:800px) {
@@ -175,10 +172,3 @@ p {
         width: 100%;
         height: auto;
     } */
-
-
-
-
-
- 
-

@@ -1,110 +1,106 @@
-@font-face{
-    font-family : "CELTICHD";
-    src : url('CELTICHD.ttf') format('truetype');
+@font-face {
+  font-family: "CELTICHD";
+  src: url("CELTICHD.ttf") format("truetype");
 }
 
-html, head, header, footer {
-    background-color: rgb(144, 162, 214);
+html,
+head,
+header,
+footer {
+  background-color: rgb(144, 162, 214);
 }
 
 .contact {
-    margin: 100px;
-    margin-bottom: 0px;   
+  margin: 100px;
+  margin-bottom: 0px;
 }
-title, .title {
-    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
+title,
+.title {
+  font-family: "CELTICHD", Arial, Helvetica, sans-serif;
 }
-
 
 h3 {
-    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-    font-size: 40px;
+  font-family: "CELTICHD", Arial, Helvetica, sans-serif;
+  font-size: 40px;
 }
 .formulaire {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    padding: 20px;
-    border-radius:5px ;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
- input {
-    height: 50px;
-    border-radius:5px ;
-} 
+input {
+  height: 50px;
+  border-radius: 5px;
+}
 textarea {
-    height: 80px;
-    border-radius:5px ;
+  height: 80px;
+  border-radius: 5px;
 }
 
-h1{
-    display: flex;
-    justify-content: center; 
-   
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
 }
 
-.imgnav  {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    
+.imgnav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .texte {
-    position: absolute;
-    text-align: center;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 50%;
-    width: 70%;
-    z-index: 1;
-    font-size: 30px; 
-    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-} 
-
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  width: 70%;
+  z-index: 1;
+  font-size: 30px;
+  font-family: "CELTICHD", Arial, Helvetica, sans-serif;
+}
 
 li {
-    display: inline-flex;
-    justify-content: space-between;
-}  
+  display: inline-flex;
+  justify-content: space-between;
+}
 
 .img {
-    height: 800px;
+  height: 800px;
 }
 
 #send {
-	border-radius:5px ;
-	width: 80px;
-	padding: 8px;
-	margin: auto;
+  border-radius: 5px;
+  width: 80px;
+  padding: 8px;
+  margin: auto;
 }
-.created, .lesdroits {
-    display: flex;
-    flex-direction: column;  
-    text-align: right; 
-    color: white;
-    list-style-type: none;
-	line-height:30px; 
-    font-size: 15px;
-    margin-bottom: 8px;
-    margin-right: 10px;
-
+.created,
+.lesdroits {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: white;
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-right: 10px;
 }
 
 ul {
-    justify-content:space-around;
-    align-items: flex-end;
-    display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  display: flex;
 }
-
-
-
