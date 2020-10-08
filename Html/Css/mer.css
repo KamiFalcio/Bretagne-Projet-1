@@ -264,37 +264,20 @@ label:after {
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
 }
-.contact {
-    margin: 100px;
-    margin-bottom: 0px;
    
-} 
-.formulaire {
-	display: flex;
-	flex-direction: column;
-	width: 500px;
-	padding: 20px; 
-	border-radius:5px ;
-}
-   
-.created {
+.created, .lesdroits {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     color: white;
     list-style-type: none;
 	line-height:30px;
 	justify-content: space-around;
 	margin-right: 20px;
+	font-size: 15px;
 
-}
-.lesdroits {
-    font-size: 10px;
 }  
-h3 {
-    font-family : "CELTICHD", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
+
 li {
     display: inline-flex;
     justify-content: space-between;
@@ -305,19 +288,3 @@ li {
 	justify-content: space-around; 
    
 } 
- textarea {
-	height: 80px;
-	border-radius:5px ;
-} 
-#foot {
-	height: 50px;
-	position: initial;
-	border-radius:5px ;
-
-}
-#send {
-	border-radius:5px ;
-	width: 80px;
-	padding: 8px;
-	margin: auto;
-}
