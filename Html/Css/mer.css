@@ -6,6 +6,11 @@ section {
   height: 400px;
 }
 
+h2{
+  color: white;
+  font-family: "CELTICHD", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
 #partie-faune {
   display: flex;
   flex-direction: column;
