@@ -1,23 +1,33 @@
-.carte{
-    width: 100%;
-    object-fit: scale-down ;
+.carte {
+  width: 100%;
+  object-fit: scale-down;
 }
 
 .lienGeo {
-    margin: 0 1px;
-    max-width: 47%;
-    height: auto;
+  margin: 0 1px;
+  max-width: 47%;
+  height: auto;
 }
 
-
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-    
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+p {
+  font-size: 21px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .title{
     text-align: center;
@@ -51,4 +61,10 @@ li {
     display: inline-flex;
     justify-content: space-between;
 }  
+
+.sectionArticle {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
 
