@@ -2,9 +2,12 @@ body {
   overflow-x: hidden;
 }
 
+h2{
+  color: white;
+}
 .fest {
   font-family: "CELTICHD";
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .imageArticle:hover {
@@ -167,4 +170,30 @@ article:hover {
   #titreevenements{
     font-size: 25px;
   }
+}
+.created, .lesdroits {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  list-style-type: none;
+line-height:30px;
+justify-content: space-around;
+margin-right: 20px;
+font-size: 15px;
+
+}  
+
+li {
+  display: inline-flex;
+  justify-content: space-between;
+} 
+ul{
+display:flex; 
+align-items: flex-end; 
+justify-content: space-around; 
+ 
+} 
+.hr-footer{
+  margin-top: 100px;
 }

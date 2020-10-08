@@ -1,0 +1,239 @@
+.Legal { font-size: 12px; }
+
+/* -------------------------------------------------------------------------- */
+
+ #CalendrierEntete { width:100%; background-color:#F8F8F8; }
+ #CalendrierEntete TH { text-align:right; font-size:14pt; font-weight:bold; padding:2px 6px 1px 2px;  }
+ #CalendrierEntete TD { font-size:10pt; padding:2px 2px 1px 6px; }
+ #CalendrierEntete TD SMALL { font-size:8pt; }
+ #CalendrierEntete H1,
+ #CalendrierEntete H2 { font-size:14pt; font-weight:bold; }
+
+ #CalendrierEntete FORM INPUT { display:none; }
+
+ BODY.Rounded #Contenu #CalendrierEntete {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+ }
+ 
+/* -------------------------------------------------------------------------- */
+
+#CalContener {position:relative;}
+#CalContener > DIV {position:absolute;top:0;left:0;width:100%;height:100%;background-color: rgb(255,255,255);background-color: rgba(255,255,255,0.9);}
+TD.CalContener {border-top:1px solid #1D4088;border-right:1px solid #1D4088;border-bottom:1px solid #1D4088;}
+TD.CalContener0 {border-left:1px solid #1D4088;}
+
+#Calendrier { background-color:#F8F8F8; width:764px; overflow:hidden;  position:relative; }
+
+#Calendrier #CalendrierPrev { position:absolute; left:0px; top:0px; z-index:500; cursor:pointer; padding:6px 14px 6px 14px; }
+#Calendrier #CalendrierPrev DIV { width:11px; height:20px; background-image:url(/img/PrevNext2.png); background-repeat:no-repeat; background-position:0 0; }
+#Calendrier #CalendrierNext { position:absolute; right:0px; top:0px; z-index:500; cursor:pointer; padding:6px 18px 6px 14px; }
+#Calendrier #CalendrierNext DIV { width:11px; height:20px;background-image:url(/img/PrevNext2.png); background-repeat:no-repeat; background-position:-11px 0; }
+
+#Calendrier_Pages { position:relative; width:800px; } 
+
+#Calendrier_Pages .Calendrier_Page { display:none; position:relative; z-index:400; }
+#Calendrier_Pages .Selected { display:block; } 
+
+
+.CalendrierMois_Content { float:left; padding:1px 4px 4px 4px; min-height:1px; }
+.CalendrierMois_Content TABLE.CalendrierMois { background-color:#FFFFFF; width:182px; }
+
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD.FERIE {color:#CC0000;font-weight:bold;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD {cursor:pointer;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW:hover TD {background-color:#336699; color:white; }
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW:hover TD.Coef { color:#000000; }
+
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW1 TD {border-top:1px solid #1D4088;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW6 TD.DW,
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW7 TD.DW {font-weight:bold;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW6 TD,
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW7 TD {background-color:#F0F0F0;}
+.CalendrierMois_Content TABLE.CalendrierMois TD {font-family:Arial,Helvetica,sans-serif;font-size:11px;white-space:nowrap; padding:2px;background-color:#FFFFFF;}
+
+.CalendrierMois_Content TABLE.CalendrierMois TD.Fete { white-space:nowrap; padding-right:0px; }
+.CalendrierMois_Content TABLE.CalendrierMois TD.Fete DIV { width:75px; overflow:hidden; }
+
+.CalendrierMois_Content TABLE.CalendrierMois TD.Event {padding:0;width:16px;max-width:16px;min-width:16px;background-repeat:no-repeat;background-position:4px center;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.GMEV TD.Event {background-image:url(cal-small-pev.png);}
+.CalendrierMois_Content TABLE.CalendrierMois TD.HasEvent {background-image:url(cal-small.png);}
+.CalendrierMois_Content TABLE.CalendrierMois TR.GMEV TD.HasEvent {background-image:url(cal-small.png);}
+.CalendrierMois_Content TABLE.CalendrierMois TH.Mois {margin:0;padding:8px;font-size:11px;font-weight:bold;color:white;background-color:#336699;}
+.CalendrierMois_Content TABLE.CalendrierMois TD.Coef {text-align:center;padding-left:4px;padding-right:4px;}
+.CalendrierMois_Content TABLE.CalendrierMois TD.Vide {font-size:1px;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.MJ TD.Coef {font-weight:bold;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.AJD TD {background-color:#CCFFFF;font-weight:bold;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD.VZ {font-size:1px;width:3px;overflow:hidden;padding:0;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD.VZ1 {background-color:#0033FF;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD.VZ2 {background-color:#FF99FF;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DW TD.VZ3 {background-color:#9933FF;}
+.CalendrierMois_Content TABLE.CalendrierMois TR.DM01 TD {border-top:0px solid #1D4088;}
+
+.CalendrierMois_Content TABLE.CalendrierMois {
+ -webkit-box-shadow:1px 1px 2px #A0A0A0;
+ -moz-box-shadow:1px 1px 2px #A0A0A0;
+ box-shadow:1px 1px 2px #A0A0A0;
+}
+
+BODY.Rounded #Calendrier {
+ -webkit-border-radius: 0 0 6px 6px;
+ -moz-border-radius: 0 0 6px 6px;
+ border-radius: 0 0 6px 6px;
+} 
+
+BODY.Rounded .CalendrierMois_Content TABLE.CalendrierMois,
+BODY.Rounded .CalendrierMois_Content TABLE.CalendrierMois TH.Mois {
+ -webkit-border-radius: 6px 6px 0 0;
+ -moz-border-radius: 6px 6px 0 0;
+ border-radius: 6px 6px 0 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.ZonesVacancesScolaires, .ZonesVacancesScolaires A { font-size:7pt; font-family: Arial, Helvetica, sans-serif; padding-left:4px; margin-bottom:4px; }
+ 
+.ZonesVacancesScolaires .VZ1{float:left; background-color:#0033FF; overflow:hidden; width:4px; margin-right:2px; }
+.ZonesVacancesScolaires .VZ2{float:left; background-color:#FF99FF; width:4px; margin-right:2px; }
+.ZonesVacancesScolaires .VZ3{float:left; background-color:#9933FF; overflow:hidden; width:4px; margin-right:2px; } 
+
+/* -------------------------------------------------------------------------- */
+
+#MareeJour { position:relative; width:540px; z-index:210; overflow:hidden; }
+#MareeJour_Pages { position:relative; width:3780px; }
+
+#MareeJour_Pages .Selected {}
+
+.MareeJour_Page { position:relative; width:540px; float:left; top:0; left:0; overflow:hidden; min-height:1px; }
+
+.MareeJour_Content { min-height:300px; }
+
+/* -------------------------------------------------------------------------- */
+
+.PMenuSubMenu .IconPortFav { background-image:url(/img/icon/fav1.png); }
+
+#Port_SubMenu {
+
+ border:0;
+ padding:4px;
+ margin:0;
+ margin-top:-1px;
+ -width:422px;
+  overflow:hidden;
+ 
+ background-color:#FDE172;
+
+
+    -webkit-box-shadow:  -2px 2px 2px  rgba(0,0,0,0.25);
+    -moz-box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+    box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+}
+
+BODY.Rounded #Port_SubMenu {
+ -webkit-border-radius: 0 0 6px 6px;
+ -moz-border-radius: 0 0 6px 6px;
+ border-radius: 0 0 6px 6px;
+}
+
+#Port_SubMenu .PMenuItem {
+  color:#000000;
+  background-color:#FDE172;
+} 
+
+#Port_SubMenu .PMenuItem:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+} 
+
+/* -------------------------------------------------------------------------- */
+
+#MenuCal_SubMenu {
+
+ border:0;
+ padding:0;
+ margin:0;
+ margin-top:-1px;
+ width:422px; overflow:hidden;
+ 
+ background-color:#FDE172;
+}
+
+BODY.Rounded #MenuCal_SubMenu {
+ -webkit-border-radius: 0 0 6px 6px;
+ -moz-border-radius: 0 0 6px 6px;
+ border-radius: 0 0 6px 6px;
+}
+
+#MenuCal_SubMenu #MenuCal_Pages { position:relative;  width:422px; }
+
+#MenuCal_Pages .MenuCal_Page { display:none; position:relative; top:0; width:414px; padding:4px; background-color:#FDE172; min-height:195px; }
+
+#MenuCal_Pages .Selected { display:block; } 
+
+.MenuCal_Content {}
+.MenuCal_Content .Cal { border:0; }
+
+.MenuCal_Content .Cal TH.Mois { text-align:center; font-weight:bold; color:black;  padding:4px 0 6px 0; }
+
+.MenuCal_Content .Cal TH.Mois A.MP { display:block; float:left;  color:black; text-decoration:none; }
+.MenuCal_Content .Cal TH.Mois A.MN { display:block; float:right; color:black; text-decoration:none; }
+.MenuCal_Content .Cal TH.Mois A.MP IMG, .MenuCal_Content .Cal TH.Mois A.MN IMG { margin: 0 4px 0 4px; }
+.MenuCal_Content .Cal TH.Mois A.MP SPAN, .MenuCal_Content .Cal TH.Mois A.MN SPAN { font-weight:normal; color:#655A2E; }
+.MenuCal_Content .Cal.MP TH.Mois SPAN.MC, .MenuCal_Content .Cal.MN TH.Mois SPAN.MC {  font-weight:normal; color:#655A2E; }
+.MenuCal_Content .Cal.MP TH.Mois A.MP SPAN, .MenuCal_Content .Cal.MN TH.Mois A.MN SPAN { font-weight:bold;color:black; }
+
+.MenuCal_Content .Cal TH.Mois A.Disabled { opacity:0.10; }
+
+.MenuCal_Content .Cal TH.Jour { text-align:center; font-size:8pt; font-weight:normal; color:#655A2E;}
+
+.MenuCal_Content .Cal TD {}
+
+.MenuCal_Content .Cal TD.MP, .MenuCal_Content .Cal TD.MC, .MenuCal_Content .Cal TD.MN { cursor:pointer; }
+.MenuCal_Content .Cal  A.NO { cursor:not-allowed; }
+.MenuCal_Content .Cal TD.NO { cursor:not-allowed; }
+
+.MenuCal_Content .Cal TD.MP, .MenuCal_Content .Cal.MC TD.MP, .MenuCal_Content .Cal TD.MN, .MenuCal_Content .Cal.MC TD.MN { opacity:0.10; background-color:#FDE172; }
+.MenuCal_Content .Cal.MP TD.MC, .MenuCal_Content .Cal.MN TD.MC { opacity:0.10; background-color:#FDE172; }
+.MenuCal_Content .Cal.MP TD.MP, .MenuCal_Content .Cal.MN TD.MN  { opacity:1; background-color:white; }
+
+.MenuCal_Content .Cal TD.MP:hover,.MenuCal_Content .Cal TD.MC:hover,.MenuCal_Content .Cal TD.MN:hover { background-color:#F0F0F0; }
+
+.MenuCal_Content .Cal TD.MJ TH { }
+.MenuCal_Content .Cal TD.MA TH { color:#C00000; }
+
+.MenuCal_Content .Cal TD.Vide { opacity:0.10; background-color:#FDE172; /* #FEF0B9*/ }
+.MenuCal_Content .Cal TD.Vide:hover { opacity:1; background-color:#FDE172; /* #FEF0B9*/ }
+
+.MenuCal_Content .Cal TABLE       { border:1px solid #FDE172; border-bottom:0; border-right:0; background-color:white; }
+.MenuCal_Content .Cal TABLE:hover { }
+
+.MenuCal_Content .Cal TABLE TH { text-align:right; width:32px; vertical-align:middle; font-size:20px; font-weight:bold; padding:0 4px 0 0; }
+.MenuCal_Content .Cal TABLE TD { text-align:right; width:18px; vertical-align:middle; font-size:10px; font-weight:normal; padding: 1px 2px 1px 2px; }
+
+#MenuCal_SubMenu #Aujourdhui { display:block;position:relative;z-index:2010; clear:both; text-align:center; font-size:9pt; font-weight:normal; color:black; text-decoration:none; margin:4px 4px 0 4px; padding:1px 0px 7px 0px;background-color:#FDE172; }
+
+#MenuCal_SubMenu .Loading { background-image: url(/img/loading-FDE172.gif); }
+
+/* -------------------------------------------------------------------------- */
+
+.MenuMareeJour { position:absolute; background-color:#336699; color:white; padding:2px 5px 3px 5px; z-index:500; font-size:8pt; opacity:0.80; }
+.MenuMareeJour.PMenuSel { opacity:1.0;
+    -webkit-box-shadow:  -2px 2px 2px  rgba(0,0,0,0.25);
+      -moz-box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+           box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+}
+#MenuMareeJour_SubMenu { margin-left:2px; border-top:2px solid #336699;
+
+    -webkit-box-shadow:  -2px 2px 2px  rgba(0,0,0,0.25);
+      -moz-box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+           box-shadow: -2px 2px 2px  rgba(0,0,0,0.25);
+
+ }
+BODY.Rounded #MenuMareeJour_SubMenu {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+BODY.Rounded .MenuMareeJour { -webkit-border-radius: 0 0 4px 4px;  -moz-border-radius: 0 0 4px 4px;  border-radius: 0 0 4px 4px; }  
+BODY.Rounded .MenuMareeJour.PMenuSel { -webkit-border-radius: 0 0 4px 0;  -moz-border-radius: 0 0 4px 0;  border-radius: 0 0 4px 0; }  

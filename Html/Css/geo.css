@@ -29,15 +29,9 @@ p {
   flex-direction: column;
 }
 
-
-.title{
-    text-align: center;
-    font-size: 40px;
+h2{
+  color: white;
 }
-    
- p {
-    font-size: 21px;
-} 
 
 ul {
     justify-content:space-around;
