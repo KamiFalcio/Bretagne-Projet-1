@@ -166,7 +166,7 @@ article:hover {
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
   #titreevenements{
     font-size: 25px;
   }
