@@ -271,7 +271,7 @@ ul {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   #titremer {
     font-size: 25px;
   }
