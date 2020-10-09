@@ -6,7 +6,7 @@ section {
   height: 400px;
 }
 
-h2{
+h2 {
   color: white;
   font-family: "CELTICHD", Arial, Helvetica, sans-serif;
   font-size: 40px;
@@ -248,33 +248,47 @@ label:after {
   border-bottom-right-radius: 50%;
 }
 
-   
-.created, .lesdroits {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    list-style-type: none;
-	line-height:30px;
-	justify-content: space-around;
-	margin-right: 20px;
-	font-size: 15px;
-
-}  
+.created,
+.lesdroits {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  list-style-type: none;
+  line-height: 30px;
+  justify-content: space-around;
+  margin-right: 20px;
+  font-size: 15px;
+}
 
 li {
-    display: inline-flex;
-    justify-content: space-between;
-} 
- ul{
-	display:flex; 
-	align-items: flex-end; 
-	justify-content: space-around; 
-   
-} 
+  display: inline-flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
 
-@media screen and (max-width: 375px){
-  #titremer{
+@media screen and (max-width: 375px) {
+  #titremer {
     font-size: 25px;
   }
+
+  #marees{
+    width: 80%;
+  }
+  
+}
+
+#sectionbas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#marees{
+  width: 50%;
 }
